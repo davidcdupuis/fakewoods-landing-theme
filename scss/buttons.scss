@@ -9,11 +9,11 @@ body.landing-page {
 
     &.btn-primary {
       &:before {
-        background-color: darken($tertiary, 15%);
+        background-color: darken(#0fa90c, 15%);
       }
 
       &:after {
-        background-color: $tertiary;
+         background-color: #0fa90c;
       }
     }
   }
@@ -24,7 +24,7 @@ body.landing-page {
 
   .btn-icon {
     border: none;
-      
+
     .d-icon {
       height: 1em;
       width: 1em;

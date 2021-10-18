@@ -3,6 +3,11 @@
 	"about_url": null,
 	"license_url": null,
 	"assets": {
+		"rewards": "assets/rewards.png",
+		"rules": "assets/rules.png",
+		"faq": "assets/faq.png",
+		"glossary": "assets/glossary.png",
+		"calendar": "assets/calendar.png",
 		"lifebuoy": "assets/lifebuoy.png",
     "student": "assets/student.png",
     "home": "assets/home.png",
