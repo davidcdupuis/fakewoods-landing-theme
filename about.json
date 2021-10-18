@@ -3,7 +3,7 @@
 	"about_url": null,
 	"license_url": null,
 	"assets": {
-		"rewards": "assets/rewards.png",
+		"rewards": "assets/reward.png",
 		"rules": "assets/rules.png",
 		"faq": "assets/faq.png",
 		"glossary": "assets/glossary.png",
