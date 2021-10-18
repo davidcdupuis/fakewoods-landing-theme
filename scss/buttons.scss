@@ -9,7 +9,7 @@ body.landing-page {
 
     &.btn-primary {
       &:before {
-        background-color: #13a518;
+        background-color: darken(#13cd22,%15);
       }
 
       &:after {
