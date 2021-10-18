@@ -1,5 +1,5 @@
 .page {
-  display: flex;
+  // display: flex;
   position: relative;
   align-items: center;
   justify-content: center;
@@ -28,6 +28,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+			text-align: center;
     }
 
     .secondary-text {
