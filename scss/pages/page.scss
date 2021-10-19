@@ -89,16 +89,32 @@
   }
 
   &.third {
-    background-color: $landing-light-pink;
+    background-color: $landing-light-blue;
   }
 
   &.fourth {
-    background-color: $landing-light-green;
+    background-color: $landing-light-gold;
   }
 
   &.fifth {
-    background-color: $landing-light-purple;
+    background-color: $landing-light-blue;
   }
+
+	&.club-scene{
+		background-image: $club-scene;
+	}
+
+	&.news-scene{
+		background-image: $news-scene;
+	}
+
+	&.data-scene{
+		background-image: $data-scene;
+	}
+
+	&.ressources-scene{
+		background-image: $ressources-scene;
+	}
 }
 
 .text-container {
