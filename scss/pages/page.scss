@@ -80,8 +80,14 @@
     }
   }
 
+	&.odd {
+		background-color: $tertiary;
+		color: $secondary;
+	}
+
   &.first {
-    background-color: $landing-light-blue;
+    background-color: $tertiary;
+		color: $secondary;
   }
 
   &.second {
