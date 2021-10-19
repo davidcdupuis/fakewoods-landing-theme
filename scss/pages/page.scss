@@ -101,19 +101,19 @@
   }
 
 	&.club-scene{
-		background-image: $club-scene;
+		background-image: url($club-scene);
 	}
 
 	&.news-scene{
-		background-image: $news-scene;
+		background-image: url($news-scene);
 	}
 
 	&.data-scene{
-		background-image: $data-scene;
+		background-image: url($data-scene);
 	}
 
 	&.ressources-scene{
-		background-image: $ressources-scene;
+		background-image: url($ressources-scene);
 	}
 }
 
