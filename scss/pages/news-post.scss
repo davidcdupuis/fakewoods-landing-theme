@@ -1,6 +1,6 @@
 @import "common/base/topic-post";
 
-body.blog-post {
+body.news-post {
   background-image: unset;
 
   .canvas {
@@ -22,9 +22,9 @@ body.blog-post {
 
     .contents {
       width: 900px;
-      max-width: 100vw; 
+      max-width: 100vw;
       box-sizing: border-box;
-    } 
+    }
 
     .title {
       color: $primary;

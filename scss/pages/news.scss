@@ -1,7 +1,7 @@
 @import "common/base/topic-post";
 @import "variables";
 
-body.blog {
+body.news {
   background-image: unset;
 
   > .contents {
@@ -51,7 +51,10 @@ body.blog {
     display: grid;
     grid-gap: 1em;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    padding: 7em 0 0 0;
+    padding: 10px;
+		margin-top: 7em;
+		background-color: $tertiary;
+		box-shadow: 0 0 30px lightgrey;
   }
 
   .topic-list-item {
@@ -64,7 +67,7 @@ body.blog {
       border-radius: 0.25em;
       padding: 1.3em;
       background-color: $secondary;
-  
+
       &:hover {
         box-shadow: $item-shadow;
       }
@@ -184,5 +187,3 @@ body.blog {
     }
   }
 }
-
-
