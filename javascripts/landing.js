@@ -18,8 +18,8 @@ window.addEventListener('DOMContentLoaded', (event) => {
     $(e.target).addClass('active');
     handleGroupToggle(e.target.getAttribute("data-group"));
   });
-  
-  var $blog = $('body.blog, body.blog-post');
+
+  var $blog = $('body.news, body.news-post');
   var $subscribeModal = $blog.find(".modal.subscribe");
   var $subscribeBtn = $blog.find(".btn-subscribe");
 
@@ -34,7 +34,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
   $subscribeModal.find(".modal.subscribe .modal-close").on('click', function(e) {
     $subscribeModal.removeClass("active");
   });
-  
+
   $blog.on('click', function(e) {
     if ($(e.target).closest(".modal.subscribe .modal-content, .btn-subscribe").length == 0) {
       $subscribeModal.removeClass("active");
