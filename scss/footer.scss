@@ -51,7 +51,7 @@ body.landing-page {
 	          color: $secondary;
 	          min-width: unset;
 	          margin: 0;
-	          font-size: $font-up-2;
+	          font-size: var(--font-up-2);
 	          opacity: 1;
 	        }
 	      }
@@ -66,9 +66,9 @@ body.landing-page {
 	    justify-content: center;
 			text-align: center;
 	    .small-link{
-				color: $secondary-high;
+				color: var(--secondary-high);
 	      margin: 0 0.25em;
-	      font-size: $font-down-2;
+	      font-size: var(--font-down-2);
 	    }
 		}
 		.ft-sharewoods-box{
