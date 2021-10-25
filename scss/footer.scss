@@ -1,3 +1,16 @@
+body.landing-page {
+  footer {
+		display: none;
+    width: 100vw;
+    max-width: 100%;
+    background: $tertiary;
+    color: $secondary;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+  }
+}
+
 .footer-left {
   .text {
     line-height: 30px;
