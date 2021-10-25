@@ -4,9 +4,13 @@ body.landing-page {
   }
 
 	.custom-footer {
+		width: 100vw;
+    max-width: 100%;
+    background: $tertiary;
+    color: $secondary;
+    align-items: stretch;
 	  display: flex;
 	  flex-wrap: wrap;
-	  background: var(--tertiary);
 		justify-content: center;
 	  .flexbox {
 	    width: 100%;
