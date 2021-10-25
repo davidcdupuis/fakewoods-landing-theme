@@ -1,6 +1,6 @@
 body.landing-page {
-  footer {
-		display: none;
+  landing-footer {
+		display: none !important;
     width: 100vw;
     max-width: 100%;
     background: $tertiary;
