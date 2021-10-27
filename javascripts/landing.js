@@ -50,7 +50,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
   });
 
 	// FINANCIAL PROFILE BLOG
-	var $profile_blog = $('body.profile, body.profile-post');
+	var $profile_blog = $('body.financial-profile, body.financial-profile-post');
 	var $profile_subscribeModal = $news_blog.find(".modal.subscribe");
 	var $profile_subscribeBtn = $news_blog.find(".btn-subscribe");
 
