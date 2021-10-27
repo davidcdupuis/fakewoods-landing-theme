@@ -1,0 +1,172 @@
+@import "common/base/topic-post";
+
+body.profile-post {
+  background-image: unset;
+
+  .canvas {
+    background: $secondary;
+    box-shadow: $canvas-shadow;
+    padding: 2em;
+    box-sizing: border-box;
+  }
+
+  .title-container {
+    background-color: $tertiary;
+    display: flex;
+    flex-direction: column;
+    margin-top: 9em;
+    min-height: 600px;
+    max-height: 40%;
+    justify-content: flex-end;
+    align-items: center;
+		background-size: cover;
+
+    .contents {
+      width: 900px;
+      max-width: 100vw;
+      box-sizing: border-box;
+    }
+
+    .title {
+      color: $primary;
+      font-size: 2.5em;
+      font-weight: 700;
+      margin: 0 0 .5em 0;
+    }
+  }
+
+  .post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  li {
+    line-height: 1.6em;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 900px;
+    max-width: 100vw;
+  }
+
+  .comment-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .comment-user {
+      color: $primary-high;
+      text-transform: capitalize;
+      font-size: $font-down-1;
+      margin: 6px 0 10px 0;
+    }
+
+    div.comment {
+      padding: 10px 0;
+      margin-left: 1em;
+      word-wrap: break-word;
+      word-break: break-word;
+      border-bottom: 1px solid $primary-low;
+
+      .comment-content {
+        margin-left: 50px;
+      }
+
+      &:first-of-type {
+        padding-top: 0;
+      }
+
+      &:last-of-type {
+        border-bottom: none;
+        padding-bottom: 0;
+      }
+    }
+
+    .comment-avatar {
+      float: left;
+    }
+
+    .img-avatar {
+      border-radius: 50%;
+    }
+
+    .comment-heading {
+      color: $primary-high;
+      display: flex;
+      flex-direction: column;
+
+      h4 {
+        margin: 2.5em 0 1em 0;
+      }
+    }
+
+    .comments {
+      width: 100%;
+      border-top: 1px solid $primary-very-low;
+    }
+  }
+
+  h1, h2, h3, h4 {
+    margin: .75em 0 .15em;
+  }
+
+  blockquote {
+    width: 100%;
+    padding: 12px;
+    margin-left: 0;
+    box-sizing: border-box;
+    font-style: italic;
+    border-left: 5px solid $primary-low;
+    background-color: $blend-primary-secondary-5;
+  }
+
+  code, pre {
+    color: $primary-very-high;
+    background: $primary-very-low;
+  }
+
+  img.emoji {
+    width: 1.3em;
+    height: 1.3em;
+    vertical-align: middle;
+  }
+
+  .canvas {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+
+    .lightbox-wrapper {
+      align-self: center;
+    }
+  }
+
+  .post-content {
+    border-top: 1px solid $primary-low;
+    padding-top: 1em;
+    word-spacing: 0.25em;
+    display: flex;
+    flex-direction: column;
+
+    p:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.comment-footer {
+  margin: 3em 0;
+  width: 100%;
+  display: flex;
+
+  a.btn.btn-primary {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 12px 18px;
+    font-size: 1.1em;
+  }
+}
