@@ -9,11 +9,11 @@ body.landing-page {
 
     &.btn-primary {
       &:before {
-        background-color: darken(#031d55,15%);
+        background-color: lighten($tertiary,15%);
       }
 
       &:after {
-         background-color: #031d55;
+         background-color: $tertiary;
       }
     }
   }
