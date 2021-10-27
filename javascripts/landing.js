@@ -19,29 +19,90 @@ window.addEventListener('DOMContentLoaded', (event) => {
     handleGroupToggle(e.target.getAttribute("data-group"));
   });
 
-  var $blog = $('body.news, body.news-post');
-  var $subscribeModal = $blog.find(".modal.subscribe");
-  var $subscribeBtn = $blog.find(".btn-subscribe");
+	// NEWS BLOG
+  var $news_blog = $('body.news, body.news-post');
+  var $news_subscribeModal = $news_blog.find(".modal.subscribe");
+  var $news_subscribeBtn = $news_blog.find(".btn-subscribe");
 
-  $blog.find($subscribeBtn).on('click', function(e) {
+  $news_blog.find($news_subscribeBtn).on('click', function(e) {
     if ($(this).hasClass('user')) {
-      $subscribeModal.addClass("active");
+      $news_subscribeModal.addClass("active");
     } else {
       window.location.href = '/login'
     }
   });
 
-  $subscribeModal.find(".modal.subscribe .modal-close").on('click', function(e) {
-    $subscribeModal.removeClass("active");
+  $news_subscribeModal.find(".modal.subscribe .modal-close").on('click', function(e) {
+    $news_subscribeModal.removeClass("active");
   });
 
-  $blog.on('click', function(e) {
+  $news_blog.on('click', function(e) {
     if ($(e.target).closest(".modal.subscribe .modal-content, .btn-subscribe").length == 0) {
-      $subscribeModal.removeClass("active");
+      $news_subscribeModal.removeClass("active");
     }
   });
 
-  $blog.find('.canvas p').each(function() {
+  $news_blog.find('.canvas p').each(function() {
+    let $this = $(this);
+    if ($this.html().replace(/\s|&nbsp;/g, '').length == 0) {
+      $this.remove();
+    }
+  });
+
+	// FINANCIAL PROFILE BLOG
+	var $profile_blog = $('body.profile, body.profile-post');
+	var $profile_subscribeModal = $news_blog.find(".modal.subscribe");
+	var $profile_subscribeBtn = $news_blog.find(".btn-subscribe");
+
+	$profile_blog.find($profile_subscribeBtn).on('click', function(e) {
+    if ($(this).hasClass('user')) {
+      $profile_subscribeModal.addClass("active");
+    } else {
+      window.location.href = '/login'
+    }
+  });
+
+  $profile_subscribeModal.find(".modal.subscribe .modal-close").on('click', function(e) {
+    $profile_subscribeModal.removeClass("active");
+  });
+
+  $profile_blog.on('click', function(e) {
+    if ($(e.target).closest(".modal.subscribe .modal-content, .btn-subscribe").length == 0) {
+      $profile_subscribeModal.removeClass("active");
+    }
+  });
+
+  $profile_blog.find('.canvas p').each(function() {
+    let $this = $(this);
+    if ($this.html().replace(/\s|&nbsp;/g, '').length == 0) {
+      $this.remove();
+    }
+  });
+
+	// FAQ BLOG
+	var $faq_blog = $('body.faq, body.faq-post');
+	var $faq_subscribeModal = $news_blog.find(".modal.subscribe");
+	var $faq_subscribeBtn = $news_blog.find(".btn-subscribe");
+
+	$faq_blog.find($faq_subscribeBtn).on('click', function(e) {
+    if ($(this).hasClass('user')) {
+      $faq_subscribeModal.addClass("active");
+    } else {
+      window.location.href = '/login'
+    }
+  });
+
+  $faq_subscribeModal.find(".modal.subscribe .modal-close").on('click', function(e) {
+    $faq_subscribeModal.removeClass("active");
+  });
+
+  $faq_blog.on('click', function(e) {
+    if ($(e.target).closest(".modal.subscribe .modal-content, .btn-subscribe").length == 0) {
+      $faq_subscribeModal.removeClass("active");
+    }
+  });
+
+  $faq_blog.find('.canvas p').each(function() {
     let $this = $(this);
     if ($this.html().replace(/\s|&nbsp;/g, '').length == 0) {
       $this.remove();
