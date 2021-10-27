@@ -128,11 +128,11 @@ body.landing-page {
     right: 1.75em;
 
     &:after {
-      background-color: #6cbe45;
+      background-color: lighten($tertiary,15%);
     }
 
     &:before {
-      background-color: darken(#6cbe45, 15%);
+      background-color: $tertiary;
     }
 
     .fixed-icon {
