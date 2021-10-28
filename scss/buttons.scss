@@ -9,11 +9,11 @@ body.landing-page {
 
     &.btn-primary {
       &:before {
-        background-color: lighten($tertiary,15%);
+        background-color: $tertiary;
       }
 
       &:after {
-         background-color: $tertiary;
+         background-color: lighten($tertiary,15%);
       }
     }
   }
@@ -105,11 +105,11 @@ body.landing-page {
     }
 
     &:after {
-      background-color: $primary;
+      background-color: lighten($tertiary, 15%);
     }
 
     &:before {
-      background-color: darken($primary, 15%);
+      background-color: $tertiary;
     }
 
     .fixed-label {
