@@ -42,6 +42,20 @@ body.landing-page {
 	      flex-wrap: wrap;
 	      align-items: center;
 	      justify-content: flex-end;
+
+				.svg-icon,
+				.svg-icon-title {
+				  height: 1em;
+				  width: 1em;
+				  line-height: 1;
+				  display: inline-flex;
+				  position: relative;
+				  vertical-align: -0.125em;
+				  fill: currentColor;
+				  flex-shrink: 0; // Prevent the icon from shrinking if it's in a flexbox
+				  overflow: visible;
+				}
+				
 	      .social-link {
 	        margin: 20px 10px;
 	        display: flex;
@@ -51,7 +65,7 @@ body.landing-page {
 	          color: $secondary;
 	          min-width: unset;
 	          margin: 0;
-	          font-size: var(--font-up-2);
+	          font-size: $font-up-2;
 	          opacity: 1;
 	        }
 	      }
