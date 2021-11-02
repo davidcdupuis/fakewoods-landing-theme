@@ -6,7 +6,7 @@ body.faq {
 
 	/* Style the buttons that are used to open and close the accordion panel */
 	.accordion {
-	  background-color: #eee;
+	  background-color: lighten($primary, 15%);
 	  color: #444;
 	  cursor: pointer;
 	  padding: 18px;
@@ -15,17 +15,19 @@ body.faq {
 	  border: none;
 	  outline: none;
 	  transition: 0.4s;
+		border-radius:5px;
 	}
 
 	/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 	.active, .accordion:hover {
-	  background-color: #ccc;
+	  background-color: $primary;
+		color: #fff;
 	}
 
 	/* Style the accordion panel. Note: hidden by default */
 	.panel {
 	  padding: 0 18px;
-	  background-color: white;
+	  background-color: #f9f9f9;
 	  display: none;
 	  overflow: hidden;
 	}
