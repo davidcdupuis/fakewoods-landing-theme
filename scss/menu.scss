@@ -73,6 +73,10 @@ body.landing-page {
     background-color: $secondary;
 		border: 1px solid #0000006B;
 		box-shadow: 2px 2px 2px #0000006B;
+		left: initial;
+		width: initial;
+		position: relative;
+		top: 0;
 
     &:before {
       backface-visibility: hidden;
@@ -142,7 +146,7 @@ body.landing-page {
 
   .menu-item-list {
     flex-direction: column;
-    grid-template-columns: repeat(3, 1fr);
+		display: revert;
     gap: 4rem;
 
     .item {
