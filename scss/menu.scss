@@ -1,5 +1,9 @@
 .menu-dropdown {
   flex-wrap: wrap;
+	display: block;
+	left: none;
+	border: 1px solid #0000006b;
+  box-shadow: 2px 2px 2px #0000006b;
 
   .item {
     div.image {
@@ -16,11 +20,11 @@
     // .support div.image {
     //   background-image: url($lifebuoy);
     // }
-    .members div.image {
-      background-image: url($member);
-    }
-    .community div.image {
-      background-image: url($community);
+    // .members div.image {
+    //   background-image: url($member);
+    // }
+    // .community div.image {
+    //   background-image: url($community);
     }
     // .join div.image {
     //   background-image: url($raise-hand);
@@ -34,21 +38,21 @@
     // .consulting div.image {
     //   background-image: url($graph);
     // }
-		.rewards div.image{
-			background-image: url($rewards);
-		}
-		.rules div.image{
-			background-image: url($rules);
-		}
-		.faq div.image{
-			background-image: url($faq);
-		}
-		.glossary div.image{
-			background-image: url($glossary);
-		}
-		.calendar div.image{
-			background-image: url($calendar);
-		}
+		// .rewards div.image{
+		// 	background-image: url($rewards);
+		// }
+		// .rules div.image{
+		// 	background-image: url($rules);
+		// }
+		// .faq div.image{
+		// 	background-image: url($faq);
+		// }
+		// .glossary div.image{
+		// 	background-image: url($glossary);
+		// }
+		// .calendar div.image{
+		// 	background-image: url($calendar);
+		// }
 
     &:not(.coming-soon) .label {
       display: inline-block;
@@ -69,4 +73,8 @@
       font-size: 0.85em;
     }
   }
+
+	.menu-item-list{
+		display: block;
+	}
 }
