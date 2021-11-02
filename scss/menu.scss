@@ -63,7 +63,7 @@ body.landing-page {
     }
   }
 
-  .corporate-menu-dropdown {
+  .menu-dropdown {
     backface-visibility: hidden;
     box-sizing: border-box;
     display: flex;
@@ -71,7 +71,7 @@ body.landing-page {
     visibility: hidden;
     z-index: 200;
     background-color: $secondary;
-		border-color: 1px solid #0000006B;
+		border: 1px solid #0000006B;
 		box-shadow: 2px 2px 2px #0000006B;
 
     &:before {
@@ -110,7 +110,7 @@ body.landing-page {
       }
     }
 
-    .corporate-menu-dropdown {
+    .menu-dropdown {
       visibility: visible;
 
       &:before {
@@ -140,7 +140,7 @@ body.landing-page {
     }
   }
 
-  .corporate-menu-item-list {
+  .menu-item-list {
     flex-direction: column;
     grid-template-columns: repeat(3, 1fr);
     gap: 4rem;
@@ -220,7 +220,7 @@ body.landing-page {
       flex-direction: column;
       align-items: flex-start;
 
-      .corporate-menu-dropdown {
+      .menu-dropdown {
         display: none;
       }
     }
@@ -268,7 +268,7 @@ body.landing-page {
           }
         }
 
-        .corporate-menu-dropdown {
+        .menu-dropdown {
           display: flex;
           visibility: visible;
           flex-direction: column;
@@ -276,7 +276,7 @@ body.landing-page {
           top: initial;
           padding: 0;
 
-          .corporate-menu-item-list {
+          .menu-item-list {
             display: flex;
             flex-wrap: wrap;
             gap: unset;
