@@ -140,7 +140,7 @@ body.landing-page {
     }
   }
 
-  .menu-item-list {
+  .corporate-menu-item-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 4rem;
@@ -277,7 +277,7 @@ body.landing-page {
           top: initial;
           padding: 0;
 
-          .menu-item-list {
+          .corporate-menu-item-list {
             display: flex;
             flex-wrap: wrap;
             gap: unset;
