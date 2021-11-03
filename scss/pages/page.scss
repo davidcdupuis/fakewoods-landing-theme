@@ -12,6 +12,17 @@
   padding: 5em;
   border-bottom: 1px solid #dbd9d2;
 
+	ul.item-list .item:hover{
+		box-shadow: 5px 5px 5px #ffffff78;
+	}
+
+	&.parallax{
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
   &.landing {
     padding: 9em 0 0 0;
     margin: 0;
