@@ -105,6 +105,14 @@
 	&.club-scene{
 		background-image: url($club-scene);
 	}
+
+	&.latest-news{
+		background-image: url($latest-news-scene);
+		background-attachment: fixed;
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	}
 }
 
 .text-container {

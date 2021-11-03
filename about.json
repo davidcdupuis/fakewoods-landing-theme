@@ -21,7 +21,8 @@
     "gallery": "assets/gallery.png",
     "chevron-right": "assets/chevron-right.png",
     "question-mark": "assets/question-mark.png",
-    "graph": "assets/graph.png"
+    "graph": "assets/graph.png",
+		"latest-news-scene": "assets/corporate-news.png"
 	},
 	"color_schemes": {}
 }
