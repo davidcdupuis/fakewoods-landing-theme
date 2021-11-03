@@ -106,6 +106,26 @@
 		background-image: url($club-scene);
 	}
 
+	.glossary-scene{
+		background-image: url($glossary-scene);
+	}
+
+	.faq-scene{
+		background-image: url($faq-scene);
+	}
+
+	.resources-scene{
+		background-image: url($resources-scene);
+	}
+
+	.calendar-scene{
+		background-image: url($calendar-scene);
+	}
+
+	.profile-scene{
+		background-image: url($data-scene);
+	}
+
 	&.latest-news{
 		background-image: url($latest-news-scene);
 		background-attachment: fixed;
