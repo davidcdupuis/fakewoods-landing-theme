@@ -7,15 +7,15 @@ body.landing-page {
     z-index: 1;
     border: none;
 
-    &.btn-primary {
-			border-radius: 5px;
-			
+    &.btn-primary {			
       &:before {
         background-color: $tertiary;
+				border-radius: 5px !important;
       }
 
       &:after {
-         background-color: lighten($tertiary,15%);
+        background-color: lighten($tertiary,15%);
+				border-radius: 5px !important;
       }
     }
   }
