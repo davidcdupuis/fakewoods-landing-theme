@@ -97,46 +97,13 @@
     }
   }
 
-	&.odd {
-		background-color: $tertiary;
-		color: $secondary;
+	&.grey {
+		background-color: #fafafa;
+		color: #000000;
 	}
-
-  &.first {
-    background-color: $tertiary;
-		color: $secondary;
-  }
-
-  &.second {
-    background-color: $landing-light-gold;
-  }
-
-  &.third {
-    background-color: $landing-light-blue;
-  }
-
-  &.fourth {
-    background-color: $landing-light-gold;
-  }
-
-  &.fifth {
-    background-color: $landing-light-blue;
-  }
 
 	&.club-scene{
 		background-image: url($club-scene);
-	}
-
-	&.news-scene{
-		background-image: url($news-scene);
-	}
-
-	&.data-scene{
-		background-image: url($data-scene);
-	}
-
-	&.ressources-scene{
-		background-image: url($ressources-scene);
 	}
 }
 
