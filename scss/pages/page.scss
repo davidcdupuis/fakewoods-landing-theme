@@ -113,6 +113,33 @@
 	  background-repeat: no-repeat;
 	  background-size: cover;
 		color: white;
+		padding: 3em;
+
+		&.text-container{
+			width: 100% !important;
+		}
+
+		.item:hover{
+			box-shadow: 0 4px 14px rgb(250 250 250);
+		}
+
+		.latest-news-date{
+			border-bottom:1px solid #0000006B;
+			margin-bottom: 0.5em;
+			line-height: 1.5em;
+			display: inline-flex;
+			width: 100%;
+			align-items: center;
+		}
+
+		.latest-news-title{
+			font-size:1.5em;
+			margin-bottom: 0.5em;
+			line-height: 1.5em;
+			display: inline-flex;
+			width: 100%;
+			align-items: center;
+		}
 	}
 }
 
