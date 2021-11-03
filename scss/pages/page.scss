@@ -115,16 +115,24 @@
 		color: white;
 		padding: 3em;
 
-		&.text-container{
+		.latest-news-item{
+			display: flex;
+			margin: 10px;
+			flex-basis: 0;
+			flex-grow: 1;
+			text-align: left;
+		}
+
+		.text-container{
 			width: 100% !important;
 		}
 
 		.item:hover{
-			
+			box-shadow: 0px 0px 30px white;
 		}
 
 		.latest-news-date{
-			border-bottom:1px solid #0000006B;
+			border-bottom: 1px solid #0000006B;
 			margin-bottom: 0.5em;
 			line-height: 1.5em;
 			display: inline-flex;
