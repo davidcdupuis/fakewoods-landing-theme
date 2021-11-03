@@ -8,6 +8,8 @@ body.landing-page {
     border: none;
 
     &.btn-primary {
+			border-radius: 5px;
+			
       &:before {
         background-color: $tertiary;
       }
