@@ -103,19 +103,23 @@
 	}
 
 	.club-scene{
-		background-image: url($club-scene);
+		content: url($club-scene);
+		max-width: 100%;
 	}
 
 	.glossary-scene{
-		background-image: url($glossary-scene);
+		content: url($glossary-scene);
+		max-width: 100%;
 	}
 
 	.faq-scene{
-		background-image: url($faq-scene);
+		content: url($faq-scene);
+		max-width: 100%;
 	}
 
 	.resources-scene{
-		background-image: url($resources-scene);
+		content: url($resources-scene);
+		max-width: 100%;
 	}
 
 	// .calendar-scene{
@@ -123,7 +127,8 @@
 	// }
 
 	.profile-scene{
-		background-image: url($data-scene);
+		content: url($data-scene);
+		max-width: 100%;
 	}
 
 	&.latest-news{
