@@ -27,7 +27,8 @@
 		"latest-news-scene": "assets/press-release-dark.jpg",
 		"profile-container-scene": "assets/financial-profile-scene.jpeg",
 		"club-container-scene": "assets/club-scene.jpeg",
-		"resources-container-scene": "assets/resources-scene.jpg"
+		"resources-container-scene": "assets/resources-scene.jpg",
+		"landing-scene": "assets/landing-picture.png"
 	},
 	"color_schemes": {}
 }
