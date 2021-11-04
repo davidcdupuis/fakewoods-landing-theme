@@ -24,7 +24,10 @@
     "chevron-right": "assets/chevron-right.png",
     "question-mark": "assets/question-mark.png",
     "graph": "assets/graph.png",
-		"latest-news-scene": "assets/press-release-dark.jpg"
+		"latest-news-scene": "assets/press-release-dark.jpg",
+		"profile-container-scene": "assets/financial-profile-scene.jpeg",
+		"club-container-scene": "assets/club-scene.jpeg",
+		"resources-container-scene": "assets/resources-scene.jpg"
 	},
 	"color_schemes": {}
 }
