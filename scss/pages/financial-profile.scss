@@ -4,6 +4,48 @@
 body.financial-profile {
   background-image: unset;
 
+	.item-list-toggle {
+		margin: 1em 0 2em;
+		display: flex;
+		justify-content: center;
+		flex-flow: wrap;
+
+		.toggle {
+			padding: 3px 8px;
+			border: 1px solid $primary-medium;
+			border-radius: 4px;
+			margin: 0 10px;
+
+			&.active {
+				background: $tertiary;
+				color: $secondary;
+			}
+		}
+	}
+
+	.item-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 600px);
+    grid-gap: 3em;
+    justify-items: center;
+    justify-content: center;
+
+    .item {
+      width: 600px;
+      max-width: 100%;
+      display: none;
+      flex-direction: column;
+      border: 1px solid $primary-low;
+      padding: 0;
+      animation: fade-out 1s;
+
+      &.show {
+        display: flex;
+        animation: fade-in 1s;
+      }
+    }
+  }
+
   > .contents {
     min-height: 100vh;
     width: 100%;
