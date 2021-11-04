@@ -114,10 +114,10 @@ window.addEventListener('DOMContentLoaded', (event) => {
 	function scrollFunction() {
 	  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
 	    document.getElementById("header").style['background-color'] = "white";
-			document.getElementsByClassName("primary-item-link").style.color = "black";
+			document.getElementsByClassName("primary-item-link").style['color'] = "black";
 	  } else {
 	    document.getElementById("header").style.background = "none";
-			document.getElementsByClassName("primary-item-link").style.color = "white";
+			document.getElementsByClassName("primary-item-link").style['color'] = "white";
 	  }
 	}
 });
