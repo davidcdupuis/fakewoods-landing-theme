@@ -1,6 +1,7 @@
 body.landing-page header.landing-header {
   height: 6em;
   display: none;
+	background: none;
 
 	.header-title{
 		margin-top: 0.5em;
@@ -9,7 +10,7 @@ body.landing-page header.landing-header {
 	}
 
   .contents {
-    padding: 3em 6.25em 0;
+    /*padding: 3em 6.25em 0;*/
     align-items: flex-start;
 
 		.menu{
