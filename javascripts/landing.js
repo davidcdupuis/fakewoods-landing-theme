@@ -116,13 +116,13 @@ window.addEventListener('DOMContentLoaded', (event) => {
 	    document.getElementById("header").style['background-color'] = "white";
 			var links = document.getElementsByClassName("primary-item-link");
 			for (var i = 0; i < all.length; i++) {
-			  all[i].style.color = 'black';
+			  links[i].style.color = 'black';
 			}
 	  } else {
 	    document.getElementById("header").style.background = "none";
 			var links = document.getElementsByClassName("primary-item-link");
 			for (var i = 0; i < links.length; i++) {
-			  all[i].style.color = 'white';
+			  links[i].style.color = 'white';
 			}
 	  }
 	}
