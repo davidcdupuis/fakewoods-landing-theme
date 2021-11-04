@@ -3,6 +3,10 @@ body.landing-page header.landing-header {
   display: none;
 	background: none;
 
+	a.primary-item-link:hover{
+		color: #1ABC9C;
+	}
+
 	.header-title{
 		margin-top: 0.5em;
 		background-color: #ffffff6B;
@@ -12,6 +16,7 @@ body.landing-page header.landing-header {
   .contents {
     /*padding: 3em 6.25em 0;*/
     align-items: flex-start;
+		border-bottom: 1px solid white;
 
 		.menu{
 			margin-top: 0em;
