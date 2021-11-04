@@ -1,3 +1,16 @@
+import { withPluginApi } from 'discourse/lib/plugin-api';
+
+export default {
+  name: 'with-plugin-sample',
+  initialize() {
+
+     withPluginApi('0.1', api => {
+       api.onPageChange(() => console.log('user navigated!'));
+     });
+
+  }
+}
+
 window.addEventListener('DOMContentLoaded', (event) => {
   var $memberList = $('#member-list');
   var $toggleList = $memberList.find('.item-list-toggle');
