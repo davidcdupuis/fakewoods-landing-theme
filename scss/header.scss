@@ -1,12 +1,24 @@
 body.landing-page header.landing-header {
-  height: 9em;
+  height: 6em;
   display: none;
+
+	.header-title{
+		margin-top: 0.5em;
+		background-color: #ffffff6B;
+    border-radius: 40px;
+	}
+
   .contents {
     padding: 3em 6.25em 0;
     align-items: flex-start;
 
+		.menu{
+			margin-top: 0em;
+		}
+
     .panel {
-      padding-top: 0.9em;
+      padding-top: 0em;
+			margin-top: 1em;
     }
   }
 }
