@@ -4,8 +4,9 @@
 body.resources {
   background-image: unset;
 
-	.landing-header{
-		background-image: url($resources-container-scene);
+	.page.landing{
+		background-image: url($resources-container-scene) !important;
+		background-color: rgba(29,29,31,0.95) !important;
 	}
 
   > .contents {
