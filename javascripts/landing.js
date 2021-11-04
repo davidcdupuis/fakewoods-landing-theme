@@ -115,14 +115,14 @@ window.addEventListener('DOMContentLoaded', (event) => {
 	  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
 	    document.getElementById("header").style['background-color'] = "white";
 			var links = document.getElementsByClassName("primary-item-link");
-			for (var i = 0; i < all.length; i++) {
-			  links[i].style.color = 'black';
+			for (var i = 0; i < links.length; i++) {
+			  links[i].style.color = "black";
 			}
 	  } else {
 	    document.getElementById("header").style.background = "none";
 			var links = document.getElementsByClassName("primary-item-link");
 			for (var i = 0; i < links.length; i++) {
-			  links[i].style.color = 'white';
+			  links[i].style.color = "white";
 			}
 	  }
 	}
