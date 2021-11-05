@@ -149,7 +149,6 @@ for (i = 0; i < acc.length; i++) {
 
 if (window.location.href.match(/\profile/))
 {
-  alert('profil page loaded! ');
 	new TradingView.widget({
 	  "width": 980,
 	  "height": 610,
