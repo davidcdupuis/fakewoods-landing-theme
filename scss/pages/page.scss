@@ -29,6 +29,14 @@
     /* padding: 9em 0 0 0; */
     margin: 0;
     border-top: none;
+
+		&.welcome{
+			background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url($leadership-banner);
+		}
+
+		&.faq{
+			background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url($faq-banner);
+		}
 		// background-image: url($landing-scene);
 		// background-color: rgba(29, 29, 31, 0.95);
 		color: white;
