@@ -28,14 +28,6 @@ body.faq {
 		color: #fff;
 	}
 
-	/* Style the accordion panel. Note: hidden by default */
-	.panel {
-	  padding: 0 18px;
-	  background-color: #f9f9f9;
-	  display: none;
-	  overflow: hidden;
-	}
-
   > .contents {
     min-height: 100vh;
     width: 100%;
@@ -45,6 +37,14 @@ body.faq {
     display: flex;
     justify-content: center;
     margin: 0 auto;
+
+		/* Style the accordion panel. Note: hidden by default */
+		.panel {
+		  padding: 0 18px;
+		  background-color: #f9f9f9;
+		  display: none;
+		  overflow: hidden;
+		}
   }
 
   .controls {
