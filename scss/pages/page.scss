@@ -31,23 +31,23 @@
     border-top: none;
 
 		&.welcome{
-			background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url($leadership-banner);
+			background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url($leadership-banner);
 		}
 
 		&.faq{
-			background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url($faq-banner);
+			background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url($faq-banner);
 		}
 
 		&.governance{
-			background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url($leadership-banner-new);
+			background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url($leadership-banner-new);
 		}
 
 		&.esg{
-			background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url($esg-banner);
+			background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url($esg-banner);
 		}
 
 		&.stock{
-			background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url($stock-banner);
+			background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url($stock-banner);
 		}
 		// background-image: url($landing-scene);
 		// background-color: rgba(29, 29, 31, 0.95);
