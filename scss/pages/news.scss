@@ -3,6 +3,7 @@
 
 body.news {
   background-image: unset;
+	background-color: #f5f5f7;
 
   > .contents {
     min-height: 100vh;
@@ -52,9 +53,6 @@ body.news {
     grid-gap: 1em;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     padding: 10px;
-		margin-top: 7em;
-		background-color: $tertiary;
-		box-shadow: 0 0 30px lightgrey;
 		border-radius:5px;
   }
 
