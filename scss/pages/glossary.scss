@@ -11,10 +11,10 @@ body.glossary {
   }
 
   .title-container {
-    background-color: $tertiary;
+		background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url($stock-banner);
     display: flex;
     flex-direction: column;
-    margin-top: 9em;
+    padding-top: 9em;
     min-height: 200px;
     max-height: 40%;
     justify-content: flex-end;
