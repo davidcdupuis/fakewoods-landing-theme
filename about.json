@@ -28,7 +28,12 @@
 		"profile-container-scene": "assets/financial-profile-scene.jpeg",
 		"club-container-scene": "assets/club-scene.jpeg",
 		"resources-container-scene": "assets/resources-scene.jpg",
-		"landing-scene": "assets/landing-picture.png"
+		"landing-scene": "assets/landing-picture.png",
+		"faq-banner": "assets/faq_banner.jpg",
+		"leadership-banner-new": "assets/leadership_banner-new1x.jpg",
+		"leadership-banner": "assets/leadership_banner1x.jpg",
+		"stock-banner": "assets/stock_banner1x.jp",
+		"esg-banner": "assets/apple-esg-banner.jpg"
 	},
 	"color_schemes": {}
 }

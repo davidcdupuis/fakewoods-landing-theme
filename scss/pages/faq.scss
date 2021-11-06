@@ -4,6 +4,10 @@
 body.faq {
   background-image: unset;
 
+	&.landing{
+		background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url($faq-banner);
+	}
+
 	/* Style the buttons that are used to open and close the accordion panel */
 	.accordion {
 	  background-color: lighten($tertiary, 15%);
