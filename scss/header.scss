@@ -41,7 +41,8 @@ body.landing-page .primary-description h2 {
 	  display: none;
 		background: none;
 		box-shadow: none;
-		padding: 1em;
+		padding: 1em !important;
+		background-color: white !important;
 
 		a.primary-item-link:hover{
 			color: #1ABC9C !important;
