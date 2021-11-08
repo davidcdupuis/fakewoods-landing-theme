@@ -3,7 +3,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
 	var $faqList = $('#faq-list');
 	var $faqToggleList = $faqList.find('.item-list-toggle');
-	var $faqItemList = $faqList.find('.item-list');
+	var $faqItemList = $faqList.find('.contents.item-list');
 
 	function handleFAQGroupToggle(group){
 		if (group && group !== 'all') {
@@ -19,7 +19,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
     $faqToggleList.find('.toggle').removeClass('active');
     $(e.target).addClass('active');
     handleFAQGroupToggle(e.target.getAttribute("data-group"));
-		console.log(e.target);
   });
 
 	/* Member Toggle List */
