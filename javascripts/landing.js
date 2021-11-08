@@ -3,7 +3,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
 	var $faqList = $('#faq-list');
 	var $faqToggleList = $faqList.find('.item-list-toggle');
-	var $faqItemList = $faqList.find('.contents.item-list');
+	var $faqItemList = $faqList.find('.contents .item-list');
 
 	function handleFAQGroupToggle(group){
 		if (group && group !== 'all') {
