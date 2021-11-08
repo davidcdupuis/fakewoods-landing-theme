@@ -34,3 +34,39 @@ body.landing-page header.landing-header {
 body.landing-page .primary-description h2 {
   font-size: 1.7rem;
 }
+
+@media screen and (max-width: 700px) {
+	body.landing-page header.landing-header {
+	  height: 6em;
+	  display: none;
+		background: none;
+		box-shadow: none;
+		padding: 1em;
+
+		a.primary-item-link:hover{
+			color: #1ABC9C !important;
+		}
+
+		.header-title{
+			margin-top: 0em;
+		}
+
+	  .contents {
+	    /*padding: 3em 6.25em 0;*/
+	    align-items: flex-start;
+			border-bottom: 1px solid white;
+			max-width: 1285px;
+	    margin-left: auto;
+	    margin-right: auto;
+
+			.menu{
+				margin-top: 0em;
+			}
+
+	    .panel {
+	      padding-top: 0em;
+				margin-top: 1em;
+	    }
+	  }
+	}
+}
