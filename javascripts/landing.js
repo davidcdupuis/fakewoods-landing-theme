@@ -1,4 +1,28 @@
 window.addEventListener('DOMContentLoaded', (event) => {
+	/* FAQ Toggle List */
+	
+	var $faqList = $('faq-list');
+	var $faqToggleList = $faqList.find('.item-list-toggle');
+	var $faqItemList = $faqList.find('.item-list');
+
+	function handleFAQGroupToggle(group){
+		if (group && group !== 'all') {
+      $faqItemList.find(`.item:not(.${group})`).removeClass("show");
+      $faqItemList.find(`.item.${group}`).addClass("show");
+    } else {
+      $faqItemList.find('.item').addClass('show');
+    }
+	}
+
+	handleFAQGroupToggle(window.location.hash.replace(/^#/, ''));
+  $faqList.find('a.toggle').on("click", function(e) {
+    $faqToggleList.find('.toggle').removeClass('active');
+    $(e.target).addClass('active');
+    handleFAQGroupToggle(e.target.getAttribute("data-group"));
+  });
+
+	/* Member Toggle List */
+
   var $memberList = $('#member-list');
   var $toggleList = $memberList.find('.item-list-toggle');
   var $itemList = $memberList.find('.item-list');
