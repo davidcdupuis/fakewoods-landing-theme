@@ -63,7 +63,7 @@
     // }
 
     .title-container {
-      width: 900px;
+      // width: 900px;
       min-height: 200px;
       display: flex;
       flex-direction: column;
@@ -104,6 +104,8 @@
     justify-content: center;
     box-sizing: border-box;
     align-items: center;
+		max-width: 900px;
+		padding: 0em 3em;
   }
 
   .form-container {
@@ -218,7 +220,7 @@
   align-items: center;
   text-align: center;
   letter-spacing: 1.1px;
-  width: 700px;
+  // width: 700px;
   margin-bottom: 3em;
 
 	.item-list{
