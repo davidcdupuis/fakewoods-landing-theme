@@ -9,9 +9,32 @@ body.faq {
 	}
 
 	/* Style the buttons that are used to open and close the accordion panel */
+	.stock .accordion {
+		border: 3px solid indianred;
+		border-radius: 5px;
+	}
+
+	.corp-info .accordion {
+		border: 3px solid cadetblue;
+		border-radius: 5px;
+	}
+
+	.esg .accordion {
+		border: 3px solid forestgreen;
+		border-radius: 5px;
+	}
+
+	.annual-meeting .accordion {
+		border: 3px solid mediumpurple;
+		border-radius: 5px;
+	}
+
+	.sh-contact .accordion {
+		border: 3px solid orangered;
+		border-radius: 5px;
+	}
+
 	#faq-list .accordion {
-	  background-color: lighten($tertiary, 15%);
-	  color: #fff;
 	  cursor: pointer;
 	  padding: 18px;
 	  width: 100%;
@@ -52,7 +75,7 @@ body.faq {
     min-height: 100vh;
     width: 100%;
     max-width: 87.5em;
-    padding: 3.5em 5em 4em;
+    padding: 0em 4em;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
