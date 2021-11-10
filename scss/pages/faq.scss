@@ -11,27 +11,22 @@ body.faq {
 	/* Style the buttons that are used to open and close the accordion panel */
 	.stock .accordion {
 		border: 3px solid indianred;
-		border-radius: 5px;
 	}
 
 	.corp-info .accordion {
 		border: 3px solid cadetblue;
-		border-radius: 5px;
 	}
 
 	.esg .accordion {
 		border: 3px solid forestgreen;
-		border-radius: 5px;
 	}
 
 	.annual-meeting .accordion {
 		border: 3px solid mediumpurple;
-		border-radius: 5px;
 	}
 
 	.sh-contact .accordion {
 		border: 3px solid orangered;
-		border-radius: 5px;
 	}
 
 	#faq-list .accordion {
@@ -39,7 +34,6 @@ body.faq {
 	  padding: 18px;
 	  width: 100%;
 	  text-align: left;
-	  border: none;
 	  outline: none;
 	  transition: 0.4s;
 		border-radius:5px;
